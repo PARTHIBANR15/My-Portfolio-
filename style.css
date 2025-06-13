@@ -193,48 +193,6 @@ body {
     letter-spacing: 0.05em;
 }
 
-.image{
-    position: relative;
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    border: 50px solid #ee6c4d;
-    z-index: 8888;
-    animation: anim 3s linear infinite;
-}
-
-@keyframes anim{
-    0%{
-        top: 0;
-    }
-    50%{
-        top: -10px;
-    }
-    100%{
-        top: 0;
-    }
-}
-
-.image {
-  position: relative;
-  width: 450px;
-  height: 450px;
-  border-radius: 50%;
-  border: 50px solid #ee6c4d;
-  overflow :visible;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  animation: anim 3s linear infinite;
-}
-
-.image img {
-  width: 120%;
-  height: 120%;
-  object-fit: cover; /* Ensures image fills and crops nicely */
-  border-radius: 50%;
-}
-
 .social{
     position: absolute;
     bottom: 17%;
