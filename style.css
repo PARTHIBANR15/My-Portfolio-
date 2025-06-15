@@ -4,6 +4,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 *{
     margin: 0;
     padding: 0;
@@ -41,17 +42,11 @@ body {
     padding-top: 20px;         /* add some top padding */
 }
 
-
-.logo h1{
-    font-size: 25px;
-    color: #98c1d9;
-    font-weight: 600;
-    cursor: pointer;
-    letter-spacing: 0.1em;
-}
-
-.logo span{
-    color: #e0fbfc;
+.logo img {
+  filter: brightness(0) saturate(100%) invert(80%) sepia(20%) saturate(500%) hue-rotate(180deg) brightness(105%) contrast(90%);
+  width: 150px;       /* Adjust the size as needed */
+  height: auto;
+  display: block;
 }
 
 .nav-links {
@@ -295,6 +290,10 @@ body {
   gap: 30px;
 }
 
+.project-card h3, .project-card p {
+  color: #e0fbfc;
+}
+
 .project-card {
   background-color: #3d5a80;
   color: #e0fbfc;
@@ -303,6 +302,8 @@ body {
   width: 300px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 8px 24px;
   transition: transform 0.3s ease;
+  text-decoration: none;
+  display: block;
 }
 
 .project-card:hover {
