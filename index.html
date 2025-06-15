@@ -186,21 +186,20 @@
         AOS.init({
         duration: 1000,
         once: true
-    });
+        });
     </script>
 
-<script>
-    document.getElementById('contact-form').addEventListener('submit', function(e) {
-    e.preventDefault();
-    // Add your form handling logic here
-    alert('Thank you for your message!');
-    });
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        // Add your form handling logic here
+        alert('Thank you for your message!');
+        });
 
-    // In your script
-document.querySelector('.footer p').innerHTML = 
-  `&copy; ${new Date().getFullYear()} Parthiban R. All rights reserved.`;
-
-</script>
+        // In your script
+        document.querySelector('.footer p').innerHTML = 
+        `&copy; ${new Date().getFullYear()} Parthiban R. All rights reserved.`;
+    </script>
 
 </body>
 </html>
