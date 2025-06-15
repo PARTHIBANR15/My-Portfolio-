@@ -4,7 +4,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 *{
     margin: 0;
     padding: 0;
@@ -27,8 +26,8 @@ body {
 
 .container {
   min-height: 100vh;
-  overflow-x: hidden;  /* Allow vertical scroll, prevent horizontal */
-  background: #293241; /* KEEP your background */
+  overflow-x: hidden;
+  background: #293241;
 }
 
 
@@ -38,13 +37,13 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;  /* change from center to flex-start */
-    padding-top: 20px;         /* add some top padding */
+    align-items: flex-start;
+    padding-top: 20px;
 }
 
 .logo img {
   filter: brightness(0) saturate(100%) invert(80%) sepia(20%) saturate(500%) hue-rotate(180deg) brightness(105%) contrast(90%);
-  width: 150px;       /* Adjust the size as needed */
+  width: 150px;
   height: auto;
   display: block;
 }
@@ -52,12 +51,11 @@ body {
 .nav-links {
     margin-left: auto;
     margin-right: 50px;
-    margin-top: 10px; /* Moves nav down */
+    margin-top: 10px;
 }
 
 .header .btn {
-    margin-top: 10px; /* Moves Contact button down */
-}
+    margin-top: 10px;
 
 
 .nav-links ul {
@@ -100,7 +98,7 @@ body {
 }
 
 .btn-primary {
-    margin-left: 0px; /* or try 50px or 40px to move more left */
+    margin-left: 0px;
     color: #3d5a80;
     background: #e0fbfc;
 }
@@ -151,9 +149,9 @@ body {
 .left {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* keep left aligned */
+    align-items: flex-start;
     gap: 20px;
-    padding-left: 50px; /* push whole section right */
+    padding-left: 50px;
 }
 
 
@@ -323,9 +321,9 @@ body {
 
 .about-section {
   width: 1400px;
-  margin: 50px auto; /* centers horizontally and adds top-bottom space */
+  margin: 50px auto;
   color: #e0fbfc;
-  text-align: center; /* center-align text */
+  text-align: center;
   padding: 40px 20px;
 }
 
@@ -334,7 +332,7 @@ body {
   margin-bottom: 30px;
   width: 80px;
   margin-left: auto;
-  margin-right: auto; /* center the line */
+  margin-right: auto;
 }
 
 .about-section h2 {
@@ -347,14 +345,14 @@ body {
 .about-section p {
   font-size: 18px;
   max-width: 800px;
-  margin: 0 auto; /* center paragraph with max width */
+  margin: 0 auto;
   line-height: 1.6;
   letter-spacing: 0.05em;
 }
 
 .contact-section {
     padding: 100px 20px;
-    background-color: #293241; /* same as your main bg */
+    background-color: #293241;
     color: #e0fbfc;
     text-align: center;
 }
@@ -434,7 +432,7 @@ body {
 #contact-form button {
   width: 100%;
   padding: 12px;
-  background-color: #3d5a80; /* blue shade */
+  background-color: #3d5a80;
   color: white;
   border: none;
   border-radius: 8px;
@@ -445,7 +443,7 @@ body {
 }
 
 #contact-form button:hover {
-  background-color: #293241; /* darker blue on hover */
+  background-color: #293241;
 }
 
 .footer {
@@ -484,23 +482,19 @@ body {
   transform: scale(1.2);
 }
 
-/* Reset margin and padding globally */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Ensure the body and html take full height and have no extra space */
 html, body {
   height: 100%;
   overflow-x: hidden;
 }
 
-/* Remove bottom spacing from last sections */
 .contact-section,
 .footer {
   margin-bottom: 0;
   padding-bottom: 20px; /* Optional: adjust if you want a little space */
 }
-
