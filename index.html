@@ -120,7 +120,7 @@
                 <div class="contact-container">
                     <h2>Contact Me</h2>
                     <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
-                        
+
                         <input type="hidden" name="access_key" value="5da23ec0-c42e-439b-8704-5b6d618ed2b3">
                          <input type="text" name="user_name" placeholder="Your Name" required />
                          <input type="email" name="user_email" placeholder="Your Email" required />
@@ -188,19 +188,6 @@
         once: true
     });
     </script>
-
-<script>
-    document.getElementById('contact-form').addEventListener('submit', function(e) {
-    e.preventDefault();
-    // Add your form handling logic here
-    alert('Thank you for your message!');
-    });
-
-    // In your script
-document.querySelector('.footer p').innerHTML = 
-  `&copy; ${new Date().getFullYear()} Parthiban R. All rights reserved.`;
-
-</script>
 
 </body>
 </html>
